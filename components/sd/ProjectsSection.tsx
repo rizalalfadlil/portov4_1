@@ -42,11 +42,48 @@ export function ProjectsSection({ ref }: { ref?: React.Ref<HTMLDivElement> }) {
             imageUrl: "./projectsThumbnail/fitapro.png",
             url:"https://fitapro.akfarypf.ac.id/",
             tags: ["typescript","next","tailwindcss","firebase"]
-        }
+        },
+        {
+            id: 1,
+            title: "Fita Pro",
+            description: "Selamat datang di Fita Pro, aplikasi jurnal digital yang dikelola oleh Akademi Farmasi YPF, yang dirancang untuk memudahkan akademisi, peneliti, dan mahasiswa dalam mengakses dan berbagi informasi terkini seputar ilmu farmasi.",
+            imageUrl: "./projectsThumbnail/fitapro.png",
+            url: "https://fitapro.akfarypf.ac.id/",
+            tags: ["typescript", "next", "tailwindcss", "firebase"]
+        },
+        {
+            id: 1,
+            title: "Fita Pro",
+            description: "Selamat datang di Fita Pro, aplikasi jurnal digital yang dikelola oleh Akademi Farmasi YPF, yang dirancang untuk memudahkan akademisi, peneliti, dan mahasiswa dalam mengakses dan berbagi informasi terkini seputar ilmu farmasi.",
+            imageUrl: "./projectsThumbnail/fitapro.png",
+            url: "https://fitapro.akfarypf.ac.id/",
+            tags: ["typescript", "next", "tailwindcss", "firebase"]
+        }, {
+            id: 1,
+            title: "Fita Pro",
+            description: "Selamat datang di Fita Pro, aplikasi jurnal digital yang dikelola oleh Akademi Farmasi YPF, yang dirancang untuk memudahkan akademisi, peneliti, dan mahasiswa dalam mengakses dan berbagi informasi terkini seputar ilmu farmasi.",
+            imageUrl: "./projectsThumbnail/fitapro.png",
+            url: "https://fitapro.akfarypf.ac.id/",
+            tags: ["typescript", "next", "tailwindcss", "firebase"]
+        }, {
+            id: 1,
+            title: "Fita Pro",
+            description: "Selamat datang di Fita Pro, aplikasi jurnal digital yang dikelola oleh Akademi Farmasi YPF, yang dirancang untuk memudahkan akademisi, peneliti, dan mahasiswa dalam mengakses dan berbagi informasi terkini seputar ilmu farmasi.",
+            imageUrl: "./projectsThumbnail/fitapro.png",
+            url: "https://fitapro.akfarypf.ac.id/",
+            tags: ["typescript", "next", "tailwindcss", "firebase"]
+        }, {
+            id: 1,
+            title: "Fita Pro",
+            description: "Selamat datang di Fita Pro, aplikasi jurnal digital yang dikelola oleh Akademi Farmasi YPF, yang dirancang untuk memudahkan akademisi, peneliti, dan mahasiswa dalam mengakses dan berbagi informasi terkini seputar ilmu farmasi.",
+            imageUrl: "./projectsThumbnail/fitapro.png",
+            url: "https://fitapro.akfarypf.ac.id/",
+            tags: ["typescript", "next", "tailwindcss", "firebase"]
+        },
     ]
 
     const filteredProjects = selected === "All" ? projects : projects.filter(project => project.tags.map(tag => tag.toLowerCase()).includes(selected.toLowerCase()));
-    return (<section ref={ref} className="p-4 h-screen flex flex-col items-center py-40 space-y-10 justify-center bg-white max-w-5xl mx-auto" id="Projects">
+    return (<section ref={ref} className="p-4 min-h-screen flex flex-col items-center py-40 space-y-10 justify-center bg-white max-w-5xl mx-auto" id="Projects">
         <div className=" w-full max-w-5xl mx-auto text-center prose">
             <h2 className="text-2xl font-bold text-primary">Projects</h2>
             <h4 className="text-secondary">A curated collection of my development work—highlighting diverse technologies, real-world solutions, and creative problem-solving.
