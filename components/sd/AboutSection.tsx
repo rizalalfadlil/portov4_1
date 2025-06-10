@@ -10,6 +10,7 @@ import { LiaPaintBrushSolid } from "react-icons/lia";
 import { MdEmail } from "react-icons/md";
 import { RiWhatsappLine } from "react-icons/ri";
 import { TbCertificate } from "react-icons/tb";
+import { Tooltip } from "antd";
 
 export function AboutSection({ ref }: { ref?: React.Ref<HTMLDivElement> }) {
     const router = useRouter()
@@ -21,6 +22,7 @@ export function AboutSection({ ref }: { ref?: React.Ref<HTMLDivElement> }) {
             </h4>
         </div>
         <div className="w-full p-4 max-w-5xl mx-auto text-center bg-gray-800/50 border-gray-800 rounded-3xl grid sm:flex gap-8">
+            <Tooltip title="github avatar" placement="bottom">
             <Image
                 className="rounded-xl sm:h-full object-cover w-full aspect-video sm:aspect-auto sm:w-1/3"
                 src="https://github.com/rizalalfadlil.png"
@@ -28,6 +30,7 @@ export function AboutSection({ ref }: { ref?: React.Ref<HTMLDivElement> }) {
                 width={200}
                 height={300}
             />
+                </Tooltip>
             <div className="text-start text-white grid content-center sm:w-2/3">
                 <p className="text-xl mb-2 font-bold">Hafidz Rizal Al-Fadlil</p>
                 <p className="text-sm text-muted">Hi, I’m Hafidz Rizal Al-Fadill. I love turning complex ideas into simple, intuitive digital experiences. I’m always eager to learn, explore new technologies, and work on meaningful projects that create impact.</p>
