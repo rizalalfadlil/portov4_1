@@ -1,0 +1,29 @@
+{
+  "title": "Frequently Asked Questions",
+  "items": [
+    {
+      "question": "How long does it take to build a website?",
+      "answer": "Most websites take between 1 to 4 weeks, depending on the complexity and how quickly content is provided."
+    },
+    {
+      "question": "Do I need to provide all the content?",
+      "answer": "If you have the content (text, images, logo), that’s great! If not, I can help create or suggest content for you."
+    },
+    {
+      "question": "Can I update the website myself after it's done?",
+      "answer": "Yes. If you'd like, I can build it with a simple admin dashboard so you can update text, images, or blog posts anytime."
+    },
+    {
+      "question": "Will my website be mobile-friendly?",
+      "answer": "Absolutely. All websites are fully responsive and look great on phones, tablets, and desktops."
+    },
+    {
+      "question": "Do you offer hosting and domain registration?",
+      "answer": "Yes, I can help you register a domain and set up hosting if you don’t have it already."
+    },
+    {
+      "question": "What if I need changes after the site is finished?",
+      "answer": "I'm happy to assist with future changes. We can agree on a support plan, or you can contact me as needed."
+    }
+  ]
+}

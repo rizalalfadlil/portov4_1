@@ -1,0 +1,42 @@
+{
+  "title": "Terms of Service",
+  "effective_date": "2024-01-01",
+  "sections": [
+    {
+      "title": "1. Project Scope",
+      "content": "The scope of work will be defined and agreed upon before starting. Any additional requests may require extra time and cost."
+    },
+    {
+      "title": "2. Payment Terms",
+      "content": "Projects usually require a 50% deposit upfront and the remaining 50% upon completion. Payments are non-refundable after work begins."
+    },
+    {
+      "title": "3. Client Responsibilities",
+      "content": "You are responsible for providing all necessary materials (text, images, logos, etc.) in a timely manner to avoid project delays."
+    },
+    {
+      "title": "4. Revisions",
+      "content": "Up to 2 rounds of revisions are included. Additional changes beyond that may incur extra charges."
+    },
+    {
+      "title": "5. Ownership & Copyright",
+      "content": "Once full payment is made, you will own the final website and all associated deliverables, except for third-party assets or licenses."
+    },
+    {
+      "title": "6. Hosting & Domains",
+      "content": "If requested, I can assist with hosting and domain setup. Otherwise, hosting is your responsibility."
+    },
+    {
+      "title": "7. Maintenance",
+      "content": "Ongoing support or maintenance is not included by default unless specified in the agreement or purchased separately."
+    },
+    {
+      "title": "8. Termination",
+      "content": "Either party may terminate the project at any time. You will be billed for any completed work up to the termination point."
+    },
+    {
+      "title": "9. Liability",
+      "content": "I will do my best to deliver a secure and functional website, but I'm not liable for damages, losses, or downtime once the project is handed off."
+    }
+  ]
+}
