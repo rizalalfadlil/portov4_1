@@ -75,7 +75,7 @@ export function ProjectsSection({ ref }: { ref?: React.Ref<HTMLDivElement> }) {
                 ) : (
                     Object.keys(tags).map((tag) => (
                         <Tooltip key={tag} title={tag} placement="top" color="#f59e42">
-                            <div className={`flex items-center gap-2 p-2 cursor-pointer  *:transition-all duration-100 border-accent ${selected === tag ? "border-b-3" : ""}`} onClick={() => setSelected(selected === tag ? "All" : tag)}>
+                            <div className={`flex items-center gap-2 p-2 cursor-pointer *:transition-all duration-100 border-accent ${selected === tag ? "border-b-3" : ""}`} onClick={() => setSelected(selected === tag ? "All" : tag)}>
                                 {Array.isArray(hovered) && <span className={` transition-all duration-300 ${!hovered.includes(tag) ? `*:text-gray-500!` : ``}`}>{tags[tag]}</span>}
                             </div>
                         </Tooltip>

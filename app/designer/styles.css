@@ -1,0 +1,61 @@
+:root {
+  --color-background: rgb(29, 29, 29);
+  --color-primary: rgb(231, 231, 231);
+  --color-muted: rgb(170, 183, 199);
+}
+
+body {
+  background-color: var(--color-background);
+
+  color: var(--color-primary);
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+.text-secondary {
+  color: var(--color-secondary);
+}
+.text-accent {
+  color: var(--color-accent);
+}
+.text-success {
+  color: var(--color-success);
+}
+.text-warning {
+  color: var(--color-warning);
+}
+.text-danger {
+  color: var(--color-danger);
+}
+.text-muted {
+  color: var(--color-muted);
+}
+.text-surface {
+  color: var(--color-surface);
+}
+.text-background {
+  color: var(--color-background);
+}
+.text-default {
+  color: var(--color-text);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+.bg-accent {
+  background-color: var(--color-accent);
+}
+.bg-success {
+  background-color: var(--color-success);
+}
+.bg-warning {
+  background-color: var(--color-warning);
+}
+.bg-danger {
+  background-color: var(--color-danger);
+}
