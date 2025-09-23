@@ -3,6 +3,7 @@ import { BsArrowDown } from "react-icons/bs";
 
 import { League_Spartan } from "next/font/google";
 import { CTAButton } from "./CTAButton";
+import { getRandomProjectThumbnails } from "./data";
 
 const leagueSpartan = League_Spartan({
     weight: ['400', '500', '600', '700'],
@@ -16,6 +17,8 @@ export function HeroSection({ ref, refs }: { ref?: React.Ref<HTMLDivElement>; re
             refs.about.current.scrollIntoView({ behavior: "smooth" });
         }
     };
+
+    const randomThumbnails = getRandomProjectThumbnails();
     return (<section ref={ref} id="Hero" className="relative min-h-dvh p-4 flex flex-col items-center  justify-center overflow-hidden" style={{ backgroundColor: "#fff3ea" }}>
         <div className="grow" />
         <div className="grow py-20 grid place-content-center max-w-5xl mx-auto text-center space-y-4">
@@ -35,9 +38,9 @@ export function HeroSection({ ref, refs }: { ref?: React.Ref<HTMLDivElement>; re
             <BsArrowDown className=" animate-bounce mt-2" />
         </div>
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 w-full relative">
-            <div className="bg-muted w-full max-w-72 aspect-video translate-y-10 md:hover:-translate-y-10 smooth rounded-md z-0" />
-            <div className="bg-muted hidden sm:block w-full max-w-72 aspect-video translate-y-10 md:hover:-translate-y-10 smooth rounded-md z-0" />
-            <div className="bg-muted hidden sm:block w-full max-w-72 aspect-video translate-y-10 md:hover:-translate-y-10 smooth rounded-md z-0" />
+            <div className="bg-muted bg-cover bg-center w-full max-w-72 aspect-video translate-y-10 md:hover:-translate-y-10 smooth rounded-md z-0" style={{ backgroundImage: `url(${randomThumbnails[0]})` }} />
+            <div className="bg-muted hidden sm:block bg-cover bg-center w-full max-w-72 aspect-video translate-y-10 md:hover:-translate-y-10 smooth rounded-md z-0" style={{ backgroundImage: `url(${randomThumbnails[1]})` }} />
+            <div className="bg-muted hidden sm:block bg-cover bg-center w-full max-w-72 aspect-video translate-y-10 md:hover:-translate-y-10 smooth rounded-md z-0" style={{ backgroundImage: `url(${randomThumbnails[2]})` }} />
         </div>
     </section>);
 }

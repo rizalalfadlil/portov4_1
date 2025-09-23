@@ -20,7 +20,7 @@ export function Navbar({
         }
     };
     return (
-        <><div className="hidden sm:block fixed w-full top-0 p-4 z-40 ">
+        <><div className="hidden sm:block fixed w-full top-0 p-4 z-50 ">
             <nav className="  w-full p-4 mt-4 px-6 rounded-full backdrop-blur-sm bg-white shadow-sm max-w-5xl mx-auto">
                 <div className="flex justify-center items-center max-w-5xl mx-auto">
                     <div className="text-primary text-2xl font-bold select-none" onClick={() => scrollToSection((refs?.hero))}>✨</div>
