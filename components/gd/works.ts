@@ -23,75 +23,75 @@ const works: WorksProps[] = [
     imageUrl: ["/designFiles/school2.png"],
   },
   {
-    category: "social media (facebook) banner",
+    category: "gfx",
     imageUrl: ["/designFiles/gfx.png"],
   },
   {
-    category: "social media (facebook) banner",
+    category: "gfx",
     imageUrl: ["/designFiles/gfx1.jpg"],
   },
   {
-    category: "social media (facebook) banner",
+    category: "gfx",
     imageUrl: ["/designFiles/gfx2.jpg"],
   },
   {
-    category: "social media (facebook) banner",
+    category: "gfx",
     imageUrl: ["/designFiles/gfx3.jpg"],
   },
   {
-    category: "social media (facebook) banner",
+    category: "gfx",
     imageUrl: ["/designFiles/gfx4.jpg"],
   },
   {
-    category: "social media (facebook) banner",
+    category: "gfx",
     imageUrl: ["/designFiles/gfx5.jpg"],
   },
   {
-    category: "social media (facebook) banner",
+    category: "gfx",
     imageUrl: ["/designFiles/gfx6.jpg"],
   },
   {
-    category: "social media (facebook) banner",
+    category: "gfx",
     imageUrl: ["/designFiles/gfx7.jpg"],
   },
   {
-    category: "social media (facebook) banner",
+    category: "gfx",
     imageUrl: ["/designFiles/gfx8.jpg"],
   },
   {
-    category: "social media (facebook) banner",
+    category: "gfx",
     imageUrl: ["/designFiles/gfx9.jpg"],
   },
   {
-    category: "social media (facebook) banner",
+    category: "gfx",
     imageUrl: ["/designFiles/gfx10.jpg"],
   },
   {
-    category: "social media (facebook) banner",
+    category: "gfx",
     imageUrl: ["/designFiles/gfx11.jpg"],
   },
   {
-    category: "social media (facebook) banner",
+    category: "gfx",
     imageUrl: ["/designFiles/gfx12.jpg"],
   },
   {
-    category: "social media (facebook) banner",
+    category: "gfx",
     imageUrl: ["/designFiles/gfx13.jpg"],
   },
   {
-    category: "social media (facebook) banner",
+    category: "gfx",
     imageUrl: ["/designFiles/gfx14.jpg"],
   },
   {
-    category: "social media (facebook) banner",
+    category: "gfx",
     imageUrl: ["/designFiles/gfx15.jpg"],
   },
   {
-    category: "social media (facebook) banner",
+    category: "gfx",
     imageUrl: ["/designFiles/gfx16.jpg"],
   },
   {
-    category: "social media (facebook) banner",
+    category: "gfx",
     imageUrl: ["/designFiles/gfx17.jpg"],
   },
   {
