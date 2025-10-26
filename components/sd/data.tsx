@@ -74,7 +74,7 @@ export const projects: Project[] = [
     description:
       "A chatbot application with AI using gemini api that simulates conversations with characters from popular games.",
     imageUrl: "./projectsThumbnail/halu.png",
-    url: "https://chat-singleplayer.vercel.app/chat",
+//    url: "https://chat-singleplayer.vercel.app/chat",
     tags: ["typescript", "next", "tailwindcss", "shadcn", "firebase", "gemini"],
     category: "personal",
   },
