@@ -74,7 +74,7 @@ export const projects: Project[] = [
     description:
       "A chatbot application with AI using gemini api that simulates conversations with characters from popular games.",
     imageUrl: "./projectsThumbnail/halu.png",
-    //    url: "https://chat-singleplayer.vercel.app/chat",
+//    url: "https://chat-singleplayer.vercel.app/chat",
     tags: ["typescript", "next", "tailwindcss", "shadcn", "firebase", "gemini"],
     category: "personal",
   },
@@ -189,7 +189,7 @@ export const tags = {
   ),
 };
 
-export const getRandomProjectThumbnails = () => {
-  const shuffled = [...projects].sort(() => 0.5 - Math.random());
-  return shuffled.slice(0, 4).map((project) => project.imageUrl);
-};
+  export const getRandomProjectThumbnails = () => {
+    const shuffled = [...projects].sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, 4).map((project) => project.imageUrl);
+  };
