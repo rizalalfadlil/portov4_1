@@ -22,78 +22,78 @@ const works: WorksProps[] = [
     category: "school project",
     imageUrl: ["/designFiles/school2.png"],
   },
-  {
-    category: "gfx",
-    imageUrl: ["/designFiles/gfx.png"],
-  },
-  {
-    category: "gfx",
-    imageUrl: ["/designFiles/gfx1.jpg"],
-  },
-  {
-    category: "gfx",
-    imageUrl: ["/designFiles/gfx2.jpg"],
-  },
-  {
-    category: "gfx",
-    imageUrl: ["/designFiles/gfx3.jpg"],
-  },
-  {
-    category: "gfx",
-    imageUrl: ["/designFiles/gfx4.jpg"],
-  },
-  {
-    category: "gfx",
-    imageUrl: ["/designFiles/gfx5.jpg"],
-  },
-  {
-    category: "gfx",
-    imageUrl: ["/designFiles/gfx6.jpg"],
-  },
-  {
-    category: "gfx",
-    imageUrl: ["/designFiles/gfx7.jpg"],
-  },
-  {
-    category: "gfx",
-    imageUrl: ["/designFiles/gfx8.jpg"],
-  },
-  {
-    category: "gfx",
-    imageUrl: ["/designFiles/gfx9.jpg"],
-  },
-  {
-    category: "gfx",
-    imageUrl: ["/designFiles/gfx10.jpg"],
-  },
-  {
-    category: "gfx",
-    imageUrl: ["/designFiles/gfx11.jpg"],
-  },
-  {
-    category: "gfx",
-    imageUrl: ["/designFiles/gfx12.jpg"],
-  },
-  {
-    category: "gfx",
-    imageUrl: ["/designFiles/gfx13.jpg"],
-  },
-  {
-    category: "gfx",
-    imageUrl: ["/designFiles/gfx14.jpg"],
-  },
-  {
-    category: "gfx",
-    imageUrl: ["/designFiles/gfx15.jpg"],
-  },
-  {
-    category: "gfx",
-    imageUrl: ["/designFiles/gfx16.jpg"],
-  },
-  {
-    category: "gfx",
-    imageUrl: ["/designFiles/gfx17.jpg"],
-  },
+  // {
+  //   category: "gfx",
+  //   imageUrl: ["/designFiles/gfx.png"],
+  // },
+  // {
+  //   category: "gfx",
+  //   imageUrl: ["/designFiles/gfx1.jpg"],
+  // },
+  // {
+  //   category: "gfx",
+  //   imageUrl: ["/designFiles/gfx2.jpg"],
+  // },
+  // {
+  //   category: "gfx",
+  //   imageUrl: ["/designFiles/gfx3.jpg"],
+  // },
+  // {
+  //   category: "gfx",
+  //   imageUrl: ["/designFiles/gfx4.jpg"],
+  // },
+  // {
+  //   category: "gfx",
+  //   imageUrl: ["/designFiles/gfx5.jpg"],
+  // },
+  // {
+  //   category: "gfx",
+  //   imageUrl: ["/designFiles/gfx6.jpg"],
+  // },
+  // {
+  //   category: "gfx",
+  //   imageUrl: ["/designFiles/gfx7.jpg"],
+  // },
+  // {
+  //   category: "gfx",
+  //   imageUrl: ["/designFiles/gfx8.jpg"],
+  // },
+  // {
+  //   category: "gfx",
+  //   imageUrl: ["/designFiles/gfx9.jpg"],
+  // },
+  // {
+  //   category: "gfx",
+  //   imageUrl: ["/designFiles/gfx10.jpg"],
+  // },
+  // {
+  //   category: "gfx",
+  //   imageUrl: ["/designFiles/gfx11.jpg"],
+  // },
+  // {
+  //   category: "gfx",
+  //   imageUrl: ["/designFiles/gfx12.jpg"],
+  // },
+  // {
+  //   category: "gfx",
+  //   imageUrl: ["/designFiles/gfx13.jpg"],
+  // },
+  // {
+  //   category: "gfx",
+  //   imageUrl: ["/designFiles/gfx14.jpg"],
+  // },
+  // {
+  //   category: "gfx",
+  //   imageUrl: ["/designFiles/gfx15.jpg"],
+  // },
+  // {
+  //   category: "gfx",
+  //   imageUrl: ["/designFiles/gfx16.jpg"],
+  // },
+  // {
+  //   category: "gfx",
+  //   imageUrl: ["/designFiles/gfx17.jpg"],
+  // },
   {
     title: "old designer portfolio page design",
     category: "UI Design",

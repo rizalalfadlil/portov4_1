@@ -23,16 +23,16 @@ export function ProjectsSection({ ref }: { ref?: React.Ref<HTMLDivElement> }) {
       : filterLive.filter((project) =>
           project.tags
             .map((tag) => tag.toLowerCase())
-            .includes(selected.toLowerCase())
+            .includes(selected.toLowerCase()),
         );
 
   const categorizedProjects = {
     commission: {
-      title: "Commissioned Projects",
+      title: "client Projects",
       description:
-        "Work developed for real clients or organizations, commissioned and funded to meet specific business or operational needs.",
+        "Work developed for real clients or organizations, client and funded to meet specific business or operational needs.",
       projects: filteredProjects.filter(
-        (project) => project.category === "commissioned"
+        (project) => project.category === "client",
       ),
     },
     academic: {
@@ -40,7 +40,7 @@ export function ProjectsSection({ ref }: { ref?: React.Ref<HTMLDivElement> }) {
       description:
         "Projects created as part of coursework, assignments, or academic exercises to explore concepts and demonstrate skills.",
       projects: filteredProjects.filter(
-        (project) => project.category === "academic"
+        (project) => project.category === "academic",
       ),
     },
     personal: {
@@ -48,7 +48,7 @@ export function ProjectsSection({ ref }: { ref?: React.Ref<HTMLDivElement> }) {
       description:
         "Self-initiated or experimental work built to explore new ideas, test technologies, or develop personal interests.",
       projects: filteredProjects.filter(
-        (project) => project.category === "personal"
+        (project) => project.category === "personal",
       ),
     },
   };
@@ -65,12 +65,12 @@ export function ProjectsSection({ ref }: { ref?: React.Ref<HTMLDivElement> }) {
           technologies, real-world solutions, and creative problem-solving.
         </h4>
       </div>
-      <div className="grow h-96 bg-gray-100 p-4 rounded-xl w-full grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-6xl mx-auto overflow-y-scroll  border-gray-200">
+      <div className="grow h-96 border-y border-blue-100 p-4 w-full grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-6xl mx-auto overflow-y-scroll ">
         {Object.values(categorizedProjects).map(
           (category, index) =>
             category.projects.length > 0 && (
               <React.Fragment key={index}>
-                <div className="col-span-1 sm:col-span-2 md:col-span-3 lg:col-span-4 bg-white p-2 z-30 rounded-lg shadow-sm">
+                <div className="col-span-1 sm:col-span-2 md:col-span-3 lg:col-span-4 bg-white p-2 z-30 rounded-sm border border-blue-100">
                   <h2>{category.title}</h2>
                   <p className="text-xs text-muted">{category.description}</p>
                 </div>
@@ -83,10 +83,10 @@ export function ProjectsSection({ ref }: { ref?: React.Ref<HTMLDivElement> }) {
                   />
                 ))}
               </React.Fragment>
-            )
+            ),
         )}
       </div>
-      <div className="  border-gray-200 bg-gray-100 rounded-md w-full p-4 items-start">
+      <div className="  border-gray-200 bg-blue-50 rounded-md w-full p-4 items-start">
         <b>Filter</b>
         <p className="text-xs">tech stacks</p>
         <div className="flex flex-wrap gap-2 w-full">

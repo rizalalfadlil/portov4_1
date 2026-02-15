@@ -7,7 +7,7 @@ export function Footer({ }) {
         { version: "v3", url: "https://www.ism-smile.web.id/" },
         { version: "v2", url: "https://rizalalfadlil.vercel.app/" }
     ]
-    return (<footer className="bg-gray-900 text-muted">
+    return (<footer className="bg-gray-100 text-primary">
         <div className="w-full max-w-5xl mx-auto p-4 grdi sm:flex items-center justify-between gap-8">
             <p>&copy; {new Date().getFullYear()} RizalAlfadlil</p>
             <Popover title="history" content={

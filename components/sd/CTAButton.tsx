@@ -1,19 +1,21 @@
-"use client"
-import { Modal } from "antd";
-import { useRouter } from "next/navigation";
-import React, { useState } from "react";
+"use client";
+import React from "react";
 
-export function CTAButton({ small }: { small?: boolean }) {
-    const router = useRouter()
-    const [modalOpen, setModalOpen] = useState(false)
-    return (<>
-
-        <button className={`btn btn-accent rounded-full! ${small ? "" : "btn-lg"}`} onClick={()=>setModalOpen(true)}>
-            Get Started
-        </button>
-        <Modal centered title="get started" open={modalOpen} footer={null} onCancel={()=>setModalOpen(!modalOpen)}>
-            <button className="btn btn-link" onClick={()=>router.push("/developer/form")}>request a website</button>
-        </Modal>
+export function CTAButton({
+  small,
+  contactSection,
+}: {
+  small?: boolean;
+  contactSection?: React.Ref<HTMLDivElement>;
+}) {
+  return (
+    <>
+      <button
+        className={`btn btn-accent ${small ? "" : "btn-lg"}`}
+        onClick={() => contactSection && "current" in contactSection && contactSection.current && contactSection.current.scrollIntoView({ behavior: "smooth" })}
+      >
+        Contact Me
+      </button>
     </>
-    );
+  );
 }

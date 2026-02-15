@@ -5,7 +5,7 @@ export interface Project {
   imageUrl: string;
   tags: string[];
   url?: string;
-  category: "commissioned" | "personal" | "academic";
+  category: "client" | "personal" | "academic";
   sourceCode?: string;
 }
 export interface tagsType {

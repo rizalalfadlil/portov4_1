@@ -17,7 +17,7 @@ export const projects: Project[] = [
     imageUrl: "./projectsThumbnail/fitapro.png",
     url: "https://fitapro.akfarypf.ac.id/",
     tags: ["typescript", "next", "tailwindcss", "firebase"],
-    category: "commissioned",
+    category: "client",
   },
   {
     id: 2,
@@ -74,7 +74,7 @@ export const projects: Project[] = [
     description:
       "A chatbot application with AI using gemini api that simulates conversations with characters from popular games.",
     imageUrl: "./projectsThumbnail/halu.png",
-//    url: "https://chat-singleplayer.vercel.app/chat",
+    //    url: "https://chat-singleplayer.vercel.app/chat",
     tags: ["typescript", "next", "tailwindcss", "shadcn", "firebase", "gemini"],
     category: "personal",
   },
@@ -143,53 +143,53 @@ export const projects: Project[] = [
 ];
 
 export const tags = {
-    html: <FaHtml5 size={32} color="#e34c26" />,
-    css: <FaCss3Alt size={32} color="#1572B6" />,
-    javascript: <SiJavascript size={32} color="#f7df1e" />,
-    react: <FaReact size={32} color="#61dafb" />,
-    typescript: <SiTypescript size={32} color="#3178c6" />,
-    nodejs: <FaNodeJs size={32} color="#339933" />,
-    firebase: <SiFirebase size={32} color="orange" />,
-    next: <RiNextjsFill size={32} color="#252525" />,
-    tailwindcss: <RiTailwindCssFill size={32} color="#178dbb" />,
-    laravel: <SiLaravel size={32} color="red" />,
-    php: <SiPhp size={32} color="lightsteelblue" />,
-    pocketbase: (
-      <img
-        src="https://pocketbase.io/images/logo.svg"
-        alt="pocketbase"
-        width={32}
-        height={32}
-      />
-    ),
-    shadcn: (
-      <img src="./stackicons/shadcn.webp" alt="shadcn" width={32} height={32} />
-    ),
-    bootstrap: (
-      <img
-        src="./stackicons/bootstrap.svg"
-        alt="bootstrap"
-        width={32}
-        height={32}
-      />
-    ),
-    antdesign: (
-      <img
-        src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
-        alt="antdesign"
-        width={32}
-        height={32}
-      />
-    ),
-    express: (
-      <img src="./stackicons/ex.webp" alt="express" width={32} height={32} />
-    ),
-    gemini: (
-      <img src="./stackicons/gemini.png" alt="gemini" width={32} height={32} />
-    ),
-  };
+  html: <FaHtml5 size={32} color="#e34c26" />,
+  css: <FaCss3Alt size={32} color="#1572B6" />,
+  javascript: <SiJavascript size={32} color="#f7df1e" />,
+  react: <FaReact size={32} color="#61dafb" />,
+  typescript: <SiTypescript size={32} color="#3178c6" />,
+  nodejs: <FaNodeJs size={32} color="#339933" />,
+  firebase: <SiFirebase size={32} color="orange" />,
+  next: <RiNextjsFill size={32} color="#252525" />,
+  tailwindcss: <RiTailwindCssFill size={32} color="#178dbb" />,
+  laravel: <SiLaravel size={32} color="red" />,
+  php: <SiPhp size={32} color="lightsteelblue" />,
+  pocketbase: (
+    <img
+      src="https://pocketbase.io/images/logo.svg"
+      alt="pocketbase"
+      width={32}
+      height={32}
+    />
+  ),
+  shadcn: (
+    <img src="./stackicons/shadcn.webp" alt="shadcn" width={32} height={32} />
+  ),
+  bootstrap: (
+    <img
+      src="./stackicons/bootstrap.svg"
+      alt="bootstrap"
+      width={32}
+      height={32}
+    />
+  ),
+  antdesign: (
+    <img
+      src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
+      alt="antdesign"
+      width={32}
+      height={32}
+    />
+  ),
+  express: (
+    <img src="./stackicons/ex.webp" alt="express" width={32} height={32} />
+  ),
+  gemini: (
+    <img src="./stackicons/gemini.png" alt="gemini" width={32} height={32} />
+  ),
+};
 
-  export const getRandomProjectThumbnails = () => {
-    const shuffled = [...projects].sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, 4).map((project) => project.imageUrl);
-  };
+export const getRandomProjectThumbnails = () => {
+  const shuffled = [...projects].sort(() => 0.5 - Math.random());
+  return shuffled.slice(0, 4).map((project) => project.imageUrl);
+};

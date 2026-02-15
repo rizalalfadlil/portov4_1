@@ -16,7 +16,6 @@ const alata = Alata({
   variable: "--font-alata",
 });
 
-
 export default function Page() {
   const [activeBlock, setActiveBlock] = useState<string | null>(null);
   const activeBlockRef = useRef<HTMLDivElement | null>(null);
@@ -59,15 +58,15 @@ export default function Page() {
         <div className="flex md:flex-col flex-wrap gap-4 *:grow">
           <ContactBlock onClick={() => updateActiveBlock("contact")} />
           {/* <FormBlock onClick={() => updateActiveBlock("form")} /> */}
-          <ReturnBlock   />
-          <AboutBlock/>
+          <ReturnBlock />
+          <AboutBlock />
         </div>
       </div>
       {activeBlock && (
         <div className="min-h-dvh p-4 flex flex-col" ref={activeBlockRef}>
           <div className="h-full grow">{sections[activeBlock]}</div>
           <button
-            className="bg-[#353535] p-4 rounded-lg flex justify-center"
+            className="bg-[#353535] p-4 rounded-sm flex justify-center"
             onClick={() => removeActiveBlock()}
           >
             Back

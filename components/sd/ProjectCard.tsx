@@ -14,7 +14,7 @@ export const ProjectCard = ({
   return (
     <div
       key={project.id}
-      className="w-full bg-white rounded-md  border-gray-200 space-y-2 h-full p-4! flex flex-col shadow-sm"
+      className="w-full bg-white rounded-md border border-blue-100 space-y-2 h-full p-4! flex flex-col"
       onMouseEnter={() => setHovered(project.tags.map((t) => t.toLowerCase()))}
       onMouseLeave={() => setHovered(Object.keys(tags) as string[])}
     >
@@ -43,7 +43,7 @@ export const ProjectCard = ({
       >
         <FaGithub size={12}/><span>view source</span>
       </a>
-      <div className="flex gap-2 mt-4 *:size-6">
+      <div className="flex gap-1 mt-4 *:size-3">
         {project.tags.map((tag) => tags[tag.toLowerCase()])}
       </div>
     </div>

@@ -55,10 +55,11 @@ export const WelcomeBlock = () => {
           Hello i&apos;m RizalAlfadlil
         </p>
         <p className="text-3xl font-bold text-blue-200">
-          a <span className="text-yellow-50">graphics designer</span> who likes
-          to create <span className="text-yellow-50">UX friendly</span> User
-          Interface, <span className="text-yellow-50">social media post</span> and <span className="text-yellow-50">banner design</span>, and any
-          other <span className="text-yellow-50">digital design</span>.
+          a <span className="text-blue-50">graphics designer</span> who likes to
+          create <span className="text-blue-50">UX friendly</span> User
+          Interface, <span className="text-blue-50">social media post</span> and{" "}
+          <span className="text-blue-50">banner design</span>, and any other{" "}
+          <span className="text-blue-50">digital design</span>.
         </p>
         <p className="text-muted mt-4">
           <span className="hidden md:inline">click </span>

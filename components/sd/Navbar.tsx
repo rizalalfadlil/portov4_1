@@ -20,23 +20,31 @@ export function Navbar({
         }
     };
     return (
-        <><div className="hidden sm:block fixed w-full top-0 p-4 z-50 ">
-            <nav className="  w-full p-4 mt-4 px-6 rounded-full backdrop-blur-sm bg-white shadow-sm max-w-5xl mx-auto">
-                <div className="flex justify-center items-center max-w-5xl mx-auto">
-                    <div className="text-primary text-2xl font-bold select-none" onClick={() => scrollToSection((refs?.hero))}>✨</div>
-                    <div className="grow flex justify-center items-center">
-                        <DesktopMenu scrollToSection={scrollToSection} refs={refs} />
-                    </div>
-                    <CTAButton small />
-                </div>
-            </nav>
-        </div><MobileNav /></>
+      <>
+        <div className="hidden sm:block fixed w-full top-0 z-50 ">
+          <nav className="  w-full p-4 px-6 backdrop-blur-sm bg-white/60 border-b border-blue-300 ">
+            <div className="flex justify-center items-center max-w-5xl mx-auto">
+              <div
+                className="text-primary select-none hover:font-medium"
+                onClick={() => scrollToSection(refs?.hero)}
+              >
+                Home
+              </div>
+              <div className="grow flex justify-start ms-4 items-center">
+                <DesktopMenu scrollToSection={scrollToSection} refs={refs} />
+              </div>
+              <CTAButton small contactSection={refs?.about} />
+            </div>
+          </nav>
+        </div>
+        <MobileNav />
+      </>
     );
     function MobileNav() {
         const [isOpen, setIsOpen] = useState(false);
         return (<>
             <div className="fixed top-0 z-50 right-0  p-4 sm:hidden">
-                <button className="p-2 rounded-full shadow-sm bg-white" onClick={() => setIsOpen(!isOpen)}>
+                <button className="p-2 rounded-sm shadow-sm bg-white" onClick={() => setIsOpen(!isOpen)}>
                     {isOpen ? <IoClose size={24} /> : <BiMenu size={24} />}
                 </button>
             </div>
